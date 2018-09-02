@@ -1,9 +1,13 @@
 import React from 'react';
 
 export const Header = (props) => {
+  const {
+    text
+  } = props;
+
   return (
     <h1 className={'blue'}>
-      {props.text}
+      {text}
     </h1>
   );
 }

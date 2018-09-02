@@ -12,7 +12,7 @@ export const InputField = (props) => {
     <input
       className={'pa2 ba b--blue blue'}
       onChange={handleChange}
-      type="number"
+      type='number'
       value={value}
       min={min}
       max={max}

@@ -14,12 +14,12 @@ export const RangeReducer = (state = initialState, action) => {
     case CHANGE_MIN_VALUE:
       return {
         ...state,
-        min: pathOr(state.min, ['payload'], action),
+        min: pathOr(state.min, [ 'payload' ], action),
       }
     case CHANGE_MAX_VALUE:
       return {
         ...state,
-        max: pathOr(state.max, ['payload'], action),
+        max: pathOr(state.max, [ 'payload' ], action),
       }
   }
   return state
